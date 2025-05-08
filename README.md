@@ -10,7 +10,6 @@
 
 # Tecnologias Utilizadas
 - HTML
-- css
+- CSS
 - JavaScript
 
-# Como Rodar
