@@ -59,9 +59,32 @@ main {
   background-color: rgb(35, 19, 58);
   border-radius: 12px;
   box-shadow: 0 0 20px #a882ff;
+  text-align: center;
 }
 
-/* Rodapé */
+.botao-mistico {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #fff;
+    background: linear-gradient(135deg, #6b29d6, #9b59b6);
+    border: 2px solid #caa9ff;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 0 15px #9b59b6;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.5s;
+  }
+  
+  .botao-mistico:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #d8b4ff;
+    background: linear-gradient(135deg, #8e44ad, #b96eff);
+    cursor: pointer;
+  }
+  
 footer {
   text-align: center;
   padding: 20px;
