@@ -15,3 +15,23 @@ function selecionarCasa(elemento) {
       }, 300);
     }
   });
+
+
+  const form = document.getElementById("form-ingresso");
+  const botao = form.querySelector("button");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault(); // prevenir envio real
+
+    // animação
+    botao.classList.add("botao-magico");
+
+    // mensagem de feedback
+    setTimeout(() => {
+      botao.classList.remove("botao-magico");
+      alert("✨ Sua inscrição foi enviada ao Conselho Mágico! Prepare-se para ser convocado.");
+      form.reset();
+    }, 1000);
+  });
+
+

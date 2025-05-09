@@ -257,3 +257,72 @@ footer {
   padding-left: 20px;
   color: #ddd;
 }
+
+--
+
+.formulario {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 204, 112, 0.1);
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario label {
+  color: #ffd580;
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #895cf1;
+  font-size: 1em;
+}
+
+.formulario textarea {
+  resize: vertical;
+}
+
+.formulario button {
+  background-color: #a882ff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #8b6ee6;
+}
+
+
+@keyframes brilho-magico {
+  0% {
+    box-shadow: 0 0 0px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 15px 8px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0px rgba(255, 255, 255, 0);
+  }
+}
+
+.botao-magico {
+  animation: brilho-magico 1s ease-in-out;
+}
