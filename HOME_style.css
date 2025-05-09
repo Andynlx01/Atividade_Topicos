@@ -51,7 +51,7 @@ nav ul li a:hover {
   color: #ffcc70;
 }
 
-/* Seção principal */
+/* inicio */
 main {
   padding: 50px;
   max-width: 1000px;
@@ -217,3 +217,7 @@ footer {
 .evento.ativo .descricao {
   display: block;
 }
+
+
+.historia {
+  opacity: 0;
