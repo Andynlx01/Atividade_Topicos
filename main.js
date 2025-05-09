@@ -6,4 +6,8 @@ function selecionarCasa(elemento) {
     // Adiciona a nova seleção
     elemento.classList.add('selecionada');
   }
-  
+
+  function toggleEvento(elemento) {
+    elemento.classList.toggle('ativo');
+  }
+

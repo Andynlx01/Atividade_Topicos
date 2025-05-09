@@ -167,4 +167,53 @@ footer {
     justify-content: center;
   }
   
+--
   
+.linha-do-tempo {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.linha-do-tempo h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffcc70;
+}
+
+.evento {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #a882ff;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.evento:hover {
+  background-color: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 0 10px rgba(168, 130, 255, 0.2);
+}
+
+.data {
+  font-weight: bold;
+  color: #a882ff;
+}
+
+.titulo {
+  font-size: 1.2em;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.descricao {
+  margin-top: 10px;
+  display: none;
+  color: #ccc;
+}
+
+.evento.ativo .descricao {
+  display: block;
+}
