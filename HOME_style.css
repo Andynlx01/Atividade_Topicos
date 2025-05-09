@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Uncial Antiqua', cursive;
-  background: url('../assets/img/fundo.jpg') no-repeat center center fixed;
+  background: url('https://i.pinimg.com/736x/6f/0f/bc/6f0fbc8e2d053ea42591328f7fd1af2e.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #f0e6d2;
   line-height: 1.6;
@@ -53,7 +53,7 @@ nav ul li a:hover {
 
 /* Seção principal */
 main {
-  padding: 40px;
+  padding: 50px;
   max-width: 1000px;
   margin: auto;
   background-color: rgb(35, 19, 58);
@@ -98,5 +98,55 @@ footer {
     border: 2px solid gold;
     background-color: rgba(255, 215, 0, 0.1);
     box-shadow: 0 0 15px gold;
+  }
+
+--
+
+  .fundadores {
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.03);
+    text-align: center;
+  }
+  
+  .fundadores h2 {
+    color: #ffcc70;
+    margin-bottom: 30px;
+  }
+  
+  .carrossel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carrossel::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .carrossel::-webkit-scrollbar-thumb {
+    background-color: #a882ff;
+    border-radius: 4px;
+  }
+  
+  .fundador {
+    min-width: 250px;
+    background-color: rgba(168, 130, 255, 0.1);
+    border: 1px solid #a882ff;
+    border-radius: 10px;
+    padding: 20px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .fundador:hover {
+    transform: scale(1.05);
+  }
+  
+  .fundador .emoji {
+    font-size: 2em;
+    margin-bottom: 10px;
   }
   
