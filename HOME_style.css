@@ -1,7 +1,7 @@
 /* Fonte mágica do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Uncial+Antiqua&display=swap');
 
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body {
   line-height: 1.6;
 }
 
-/* Cabeçalho */
+
 header {
   background-color: rgb(20, 8, 39);
   padding: 20px;
@@ -30,7 +30,6 @@ header h1 {
   color: #a882ff;
 }
 
-/* Navegação */
 nav ul {
   list-style: none;
   display: flex;
