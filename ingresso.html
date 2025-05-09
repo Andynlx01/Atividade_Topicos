@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=S, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ingressar | Astralis</title>
+  <link rel="stylesheet" href="HOME_style.css" />
 </head>
 <body>
-    
+  <header>
+    <h1>Formulário de Ingresso</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="historia.html">História</a></li>
+      <li><a href="casas.html">Casas</a></li>
+      <li><a href="magias.html">Magias</a></li>
+      <li><a href="ingressar.html">Ingressar</a></li>
+    </ul>
+  </nav>
+
+  <main class="formulario">
+    <form id="form-ingresso" action="#" method="post">
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" name="idade" min="7" required />
+
+      <label for="casa">Casa desejada:</label>
+      <select id="casa" name="casa" required>
+        <option value="">-- Selecione --</option>
+        <option value="ignis">Ignis 🔥</option>
+        <option value="aqualis">Aqualis 💧</option>
+        <option value="sylvaris">Sylvaris 🌿</option>
+        <option value="nocturna">Nocturna 🌙</option>
+        <option value="lumiar">Lumiar 🔮</option>
+      </select>
+
+      <label for="afinidade">Com qual tipo de magia você mais se identifica?</label>
+      <input type="text" id="afinidade" name="afinidade" />
+
+      <label for="motivo">Por que deseja ingressar na Academia?</label>
+      <textarea id="motivo" name="motivo" rows="4"></textarea>
+
+      <label>
+        <input type="checkbox" name="termos" required />
+        Aceito os termos mágicos da Academia Arcana de Astralis
+      </label>
+
+      <button type="submit">Enviar inscrição ✨</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Academia Arcana de Astralis (Andressa Amaro de Oliveira) - Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
