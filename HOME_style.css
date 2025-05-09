@@ -229,3 +229,31 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+
+.magias {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.categoria {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-left: 4px solid #ffcc70;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(255, 204, 112, 0.1);
+}
+
+.categoria h2 {
+  margin-top: 0;
+  color: #ffd580;
+}
+
+.categoria ul {
+  list-style-type: "✨ ";
+  padding-left: 20px;
+  color: #ddd;
+}
