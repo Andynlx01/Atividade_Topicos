@@ -59,6 +59,7 @@ main {
   border-radius: 12px;
   box-shadow: 0 0 20px #a882ff;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .botao-mistico {
