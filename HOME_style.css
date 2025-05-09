@@ -149,4 +149,15 @@ footer {
     font-size: 2em;
     margin-bottom: 10px;
   }
+
+  .container-carrossel {
+    background-color: rgb(35, 19, 58);
+    border-radius: 15px;
+    box-shadow: 0 0 20px #a882ff;
+    padding: 40px 20px;
+    margin: 60px auto;
+    max-width: 90%;
+    text-align: center;
+  }
+  
   
