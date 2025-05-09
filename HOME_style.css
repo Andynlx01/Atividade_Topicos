@@ -158,6 +158,13 @@ footer {
     margin: 60px auto;
     max-width: 90%;
     text-align: center;
+    min-height: 350px;
+  }
+  
+  .container-carrossel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   
