@@ -21,12 +21,12 @@ function selecionarCasa(elemento) {
   const botao = form.querySelector("button");
 
   form.addEventListener("submit", (e) => {
-    e.preventDefault(); // prevenir envio real
+    e.preventDefault(); 
 
-    // animação
+    // animação do botao
     botao.classList.add("botao-magico");
 
-    // mensagem de feedback
+    // mensagem
     setTimeout(() => {
       botao.classList.remove("botao-magico");
       alert("✨ Sua inscrição foi enviada ao Conselho Mágico! Prepare-se para ser convocado.");
